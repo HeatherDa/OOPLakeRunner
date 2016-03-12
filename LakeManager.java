@@ -26,7 +26,7 @@ public class LakeManager {
             }
 
         }
-        for (Lake l:lakes){
+        for (Lake l:lakes){//print results
             System.out.println("The shortest time for lake "+l.getname()+" was "+l.minvalue()+" minutes.");
         }
         scan.close();
