@@ -3,9 +3,8 @@ import java.util.*;
 public class LakeManager {
 
     public static void main(String[] args) {
-	// write your code here
+	// track running stats around a lake and identify the shortest run time.
         Scanner scan=new Scanner (System.in);
-        Scanner scandoub=new Scanner (System.in);
 
         ArrayList<Lake>lakes=new ArrayList<>();
 
@@ -31,8 +30,7 @@ public class LakeManager {
             System.out.println("The shortest time for lake "+l.getname()+" was "+l.minvalue()+" minutes.");
         }
         scan.close();
-        scandoub.close();
-        //return lakes;
+
     }
     }
-//}
+
